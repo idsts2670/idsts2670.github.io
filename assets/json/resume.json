@@ -1,35 +1,33 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Satoshi Ido",
+    "label": "Data Enthusiast",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "sido@purdue.edu",
+    "phone": "(765) 476-3830",
+    "url": "https://github.com/idsts2670",
+    "summary": "Data Enthusiast with a strong background in Statistics and Business Analytics and a passion for optimizing a decision making",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "city": "West Lafayette",
       "countryCode": "US",
-      "region": "California"
+      "region": "Indiana"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "idsts2670",
+        "url": "https://www.linkedin.com/in/idsts2670/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Purdue University",
+      "position": "Graduate Research Assistant and Teaching Assistant",
+      "url": "https://www.purdue.edu/",
+      "startDate": "2022-08-20",
+      "endDate": "2024-05-03",
+      "summary": "exampleeee",
       "highlights": [
         "Relativity"
       ]
@@ -37,28 +35,28 @@
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
+      "organization": "CDLE youth",
+      "position": "Founder / Leader",
       "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "startDate": "2019-12-22",
+      "endDate": "2022-06-30",
+      "summary": "Founded and led the organization for one of the biggest Computer Science communities in Japan, sponsored by five publicly traded companies",
       "highlights": [
-        "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.","Men of the year 2014 by Time magazine"
+        "Led teams and negotiated event sponsorship with 5 companies, securing $100k for country-wide hackathon with 300 participants"
       ]
     }],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
+      "institution": "Purdue University",
+      "location": "Indiana, USA",
+      "url": "https://www.stat.purdue.edu/",
+      "area": "Statistics",
+      "studyType": "Master",
+      "startDate": "2022-08-20",
+      "endDate": "2024-05-10",
+      "GPA": "3.57",
       "courses": [
-        "Theory of Relativity"
+        "Bayesian Statistics, Biostatistics, Design of Experiments, Mathematical and Computational Statistics"
       ]
     }
   ],
