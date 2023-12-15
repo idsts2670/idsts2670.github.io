@@ -3,7 +3,8 @@
   contents:
     - name: Full Name
       value: Satoshi Ido
-    # - name: Date of Birth
+    - Email: Email 
+      value: sido@purdue.edu
     #   value: 14th March 1879
     - name: Languages
       value: English, Japanese
