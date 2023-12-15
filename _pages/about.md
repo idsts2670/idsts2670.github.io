@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-  subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
@@ -10,7 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   
   more_info: >
-      <p>765.476.3830</p>
+      <p>(765)-476-3830</p>
+      <p>sido@purdue.edu</p>
       <p>Located in Indiana, USA</p>
 
 news: false  # includes a list of news items
