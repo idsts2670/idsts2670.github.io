@@ -2,96 +2,68 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Satoshi Ido
+    # - name: Date of Birth
+    #   value: 14th March 1879
     - name: Languages
-      value: English, German
+      value: English, Japanese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master
+      institution: Purdue University, West Lafayette, IN, USA
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Concentration:Applied Statistics
+        - Courseworks:Bayesian Statistics, Biostatistics, Design of Experiments, Mathematical and Computational Statistics
+    - title: Bachelor
+      institution: Sophia University, Tokyo, Japan
+      # year: 
       description:
-        - Description 1.
-        - Description 2.
+        - Concentration:Marketing Analysis, Operational Research, Strategic Management
+        - Courseworks:Statistics, Digital Marketing Analysis, Operations Research, Leadership & Organizational Behavior
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Research Assistant
+      institution: Purdue University
+      year: 2023 - 2024
+      
+    - title: Graduate Data Analytics Intern
+      institution: MJ Insurance Inc., IN, USA
+      year: 2023-2023
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Data Analytics and Business Development
+      institution: Smart Drive Inc., Tokyo, Japan
+      year: 2021-2022
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Marketing Data Scientist
+      institution: SoftBank Corp., Tokyo, Japan
+      year: 2020 - 2021
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Data Scientist
+      institution: AUTORO Inc., Tokyo, Japan
+      year: 2019-2020
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/idsts2670/projects/tree/main/project1_Bayes">Bayesian Causal Inference on Differential Privacy Data</a>
+      year: 2023
+      description: We proposed causal inferential methodologies to analyze differential private data under the Rubin Causal Model.
 
-- title: Honors and Awards
+- title: Activities and Leadership
   type: time_table
   contents:
-    - year: 1921
+    - title: Founder / Leader
+    - year: 2019-2021
+    - institution: CDLE Youth, Tokyo, Japan
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Trained 15 board members and led development of marketing materials for new member recruiting, increasing membership by 100 people and resulting in $36k p.a. of sponsorship from the Japanese Deep Learning Association and other organizations
+        - Led teams and negotiated event sponsorship with 5 companies, securing $100k for country-wide hackathon with 300 participants
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Workout, Cooking, Interior Designing, Reading a book
