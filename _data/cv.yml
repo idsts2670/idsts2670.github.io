@@ -27,10 +27,10 @@
   type: time_table
   contents:
     - title: Research Assistant
-      institution: Purdue University
+      institution: Purdue University, IN, USA
       year: 2023 - 2024
       
-    - title: Graduate Data Analytics Intern
+    - title: Graduate Data Enginnering Analyst
       institution: MJ Insurance Inc., IN, USA
       year: 2023-2023
 
@@ -66,4 +66,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Workout, Cooking, Interior Designing, Reading a book
+    - <u>Hobbies:</u> Workout, Swimming, Cooking, Interior Designing, and Reading a book
