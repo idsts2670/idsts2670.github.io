@@ -11,7 +11,7 @@ profile:
   
   more_info: >
       <p>(765)-476-3830</p>
-      <p>sido@purdue.edu</p>
+      <p>idsts2670@gmail.com</p>
       <p>Located in Indiana, USA</p>
 
 news: false  # includes a list of news items
