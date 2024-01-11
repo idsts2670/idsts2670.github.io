@@ -16,12 +16,12 @@
       institution: Purdue University, West Lafayette, IN, USA
       description:
         - Concentration:Applied Statistics
-        - Courseworks:Bayesian Statistics, Biostatistics, Design of Experiments, Mathematical and Computational Statistics
+        - Courseworks:Bayesian Statistics, Biostatistics, Causal Inference, Design of Experiments, Mathematical and Computational Statistics
     - title: Bachelor
       institution: Sophia University, Tokyo, Japan
       # year: 
       description:
-        - Concentration:Marketing Analysis, Operational Research, Strategic Management
+        - Concentration:Marketing Analysis, Strategic Management
         - Courseworks:Statistics, Digital Marketing Analysis, Operations Research, Leadership & Organizational Behavior
 
 - title: Experience
