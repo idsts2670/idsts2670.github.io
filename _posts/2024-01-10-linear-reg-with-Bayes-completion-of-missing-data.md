@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  欠損がある入力データをベイズ的に補完しつつ線形回帰
-date:   2024-01-10
+title: Linear regression with Bayesian inference while imputing missing input data
+date: 2024-01-10 09:56:00-0400
 description: Statistical Machine Learning with Bayes Imputation in Python
 tags: formatting links
 categories: sample-posts
@@ -98,7 +98,7 @@ $$
 によって$p({\bf y} \mid X_{\rm observed}, \alpha, \beta)$を計算できるため，これを最大化する$(\alpha, \beta)$を求めればよいことになります．事後分布$p({\bf w}, X_{\rm missing} ~\mid X_{\rm observed}~~, \alpha, \beta)$に基づく${\bf w}, X_{\rm missing}$をサンプリングすることができるため，以下の手続きで$\alpha$, $\beta$を調整できます：
 
 (0) $\alpha_0$, $\beta_0$を適当に初期化
-(1) $L(\alpha_t, \beta_t) = \mathbb{E} _ {{\bf w}, X _ {\rm missing} ~\mid X _ {\rm observed}~~, \alpha_t, \beta_t} \left[ \mathcal{N}({\bf y} \mid X {\bf w}, \beta_t) \right]$を，事後分布に基づきサンプリングされた${\bf w}, X_{\rm missing}$から計算
+(1) $L(\alpha_t, \beta_t) = \mathbb{E} _ {\bf w}, X _ {\rm missing} ~\mid X _ {\rm observed}~~, \alpha_t, \beta_t} \left[ \mathcal{N}({\bf y} \mid X {\bf w}, \beta_t) \right]$を，事後分布に基づきサンプリングされた${\bf w}, X_{\rm missing}$から計算
 (2) 数値微分により$\alpha_{t+1} = \alpha_t + \eta \dfrac{\partial L}{\partial \alpha}(\alpha_t, \beta_t)$のように更新
 ここで$\eta$は適当に決め打ちする必要があります．またスケールの問題から，実際には対数尤度を計算する方がよいでしょう．
 
