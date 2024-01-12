@@ -136,7 +136,7 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 2. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` empty.
 3. Set up automatic deployment of your webpage (see instructions below).
 4. Make changes, commit, and push!
-5. To deply, type bin/deploy in the terminal. You will see `Deploy successfully!` if the deployment is successful.
+5. To deply, type `bin/deploy` in the terminal. You will see `Deploy successfully!` if the deployment is successful.
 6. After deployment, the webpage will become available at `<your-github-username>.github.io`.
 
 **For project pages:**
