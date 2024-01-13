@@ -13,7 +13,7 @@ I've come to realize that I am interested in medical and biotech filed. I have u
 <a href="https://public.tableau.com/views/Covid-19GlobalVaccineTracker_17051045680780/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link">Dashboard Link</a>
 
 <div class="caption">
-    See more about the <a href="https://public.tableau.com/views/Covid-19GlobalVaccineTracker_17051045680780/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link">Washington Real Estate dashboard</a>
+    See more about the <a href="https://public.tableau.com/views/Covid-19GlobalVaccineTracker_17051045680780/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link">Covid-19 Global Vaccine Tracker</a>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
