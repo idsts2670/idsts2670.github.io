@@ -4,8 +4,8 @@ title: Tableau Dashboard 2
 description: a project with a interactive dashboard to visualize global COVID-19 data
 img: assets/img/3.jpg
 importance: 2
-category: work
-giscus_comments: true
+category: fun
+related_publications:
 ---
 
 I've come to realize that I am interested in medical and biotech filed. I have utilized the data from <a href="https://ourworldindata.org/covid-vaccinations">Our World in Data</a> to create a dashboard to visualize the global COVID-19 data. The dashboard is created by Tableau. The dashboard is interactive and you can filter the data by different attributes. The dashboard is also published on Tableau Public. You can see the dashboard by clicking the link below.
