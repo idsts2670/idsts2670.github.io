@@ -3,7 +3,7 @@ layout: post
 title: Linear regression with Bayesian inference while imputing missing input data
 date: 2024-01-10 09:56:00-0400
 description: Statistical Machine Learning with Bayes Imputation in Python
-tags: formatting links
+tags: 
 categories: sample-posts
 ---
 

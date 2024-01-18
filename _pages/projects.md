@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: all projects including self-initiated and work-related
+description: A growing collection of Satoshi's projects
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [Data Science, Visualization, Web Development]
 horizontal: false
 ---
 

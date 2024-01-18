@@ -4,7 +4,7 @@ title: Tableau Dashboard 1
 description: a project with a interactive dashboard to visualize the real estate data in Washington, USA
 img: assets/img/1.jpg
 importance: 1
-category: fun
+category: Visualization
 related_publications:
 ---
 

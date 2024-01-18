@@ -4,7 +4,7 @@ title: Tableau Dashboard 2
 description: a project with a interactive dashboard to visualize global COVID-19 data
 img: assets/img/3.jpg
 importance: 2
-category: fun
+category: Visualization
 related_publications:
 ---
 
