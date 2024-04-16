@@ -13,15 +13,8 @@ I have studied the climate change data with Time Series techiniques called Seaso
 <a href="https://github.com/idsts2670/climate-change-analysis/blob/main/climate_change.ipynb">Github Code Link</a>
 
 
-<div class="caption">
-    See more about the <a href="https://public.tableau.com/views/KingCountyWAHouseSalesDashboard_17035702240760/KingCountyHouseSales?:language=en-US&:display_count=n&:origin=viz_share_link">Washington Real Estate dashboard</a>
-</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/1_project_ds_pic.jpg" title="Global Warming" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    The dashboard is very interactive. You can filter the data by different attributes.
-    The data is stored in a csv file. The data is collected from <a href="https://www.kaggle.com/harlfoxem/housesalesprediction">Kaggle [House Sales in King County, USA]</a>.
 </div>
