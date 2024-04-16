@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Climate Change Analysis with SARIMA Model
-description: a project with a 
+title: Climate Change Analysis
+description: Project with Time Series techiniques called Seasonal ARIMA (SARIMA) Model
 img: assets/img/1_project_ds_pic.jpg
 importance: 1
 category: Data Science
