@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Real Time Streaming Stock Market Data Engineering
+title: Real Time Stock Market Data Engineering
 description: Build the archetecture for Streaming Real Time Stock Market Data using Kafka and AWS.
 img: assets/img/real-time-stock-market-data-streaming-pic1.jpg
 importance: 2
