@@ -13,7 +13,7 @@ The project is End-To-End Data Engineering Project on Real-Time Stock Market Dat
     * Utilize the Alpaca API to collect real-time stock market data. At this moment, we only use free plan to collect data.
 2. Data Processing
     * Utilize Kafka Producer and Kafka Producer and Consumer on top of AWS EC2.
-    * >The Kafka Producer API allows applications to send streams of data to the Kafka cluster. The Kafka Consumer API allows applications to read streams of data from the cluster
+    * (The Kafka Producer API allows applications to send streams of data to the Kafka cluster. The Kafka Consumer API allows applications to read streams of data from the cluster)
 3. Data Streaming
     * Utilize AWS S3, Crawler, AWS Glue Data Catalog, and Athena to store and query the data.
 
