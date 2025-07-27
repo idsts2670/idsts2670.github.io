@@ -37,20 +37,12 @@ jobs:
       run: |
         pip3 install --upgrade jupyter
         npm install -g mermaid.cli
-        npm install -g purgecss
+        # npm install -g purgecss  # Temporarily disabled
     - name: Build Site 🔨
       run: |
         export JEKYLL_ENV=production
         bundle exec jekyll build --lsi
         ls -la _site/
-    - name: Run PurgeCSS 🧹
-      run: |
-        if [ -d "_site" ]; then
-          purgecss -c purgecss.config.js
-        else
-          echo "Error: _site directory not found"
-          exit 1
-        fi
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
