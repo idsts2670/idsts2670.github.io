@@ -14,7 +14,7 @@ profile:
       <p>idsts2670@gmail.com</p>
       <p>Located in Indiana, USA</p>
 
-news: false  # includes a list of news items
+news: false  # includes a list of news items - updated
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
