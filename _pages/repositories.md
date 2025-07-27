@@ -1,13 +1,13 @@
-<!-- ---
+---
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: A showcase of my GitHub projects and contributions in quantitative finance, data science, and software development.
 nav: true
 nav_order: 3
 ---
 
-## GitHub users
+## GitHub Profile & Achievements
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -15,25 +15,13 @@ nav_order: 3
     {% include repository/repo_user.html username=user %}
   {% endfor %}
 </div>
+{% endif %}
 
 ---
 
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-  {% if site.data.repositories.github_users.size > 1 %}
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.html username=user %}
-  </div>
 
-  ---
 
-{% endfor %}
-{% endif %}
-{% endif %}
-
-## GitHub Repositories
+## Featured Projects
 
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -41,4 +29,4 @@ nav_order: 3
     {% include repository/repo.html repository=repo %}
   {% endfor %}
 </div>
-{% endif %} -->
+{% endif %}

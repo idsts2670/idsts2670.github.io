@@ -6,9 +6,26 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
   h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+// Ultra-minimal layout adjustments for Anulika-style clean look
+.post {
+  .post-header {
+    margin-bottom: 0;
+    
+    .post-title {
+      display: none; // Hide default title since we have custom hero
+    }
+    
+    .desc {
+      display: none; // Hide default subtitle
+    }
   }
 }
 

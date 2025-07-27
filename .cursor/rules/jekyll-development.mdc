@@ -1,0 +1,96 @@
+# Jekyll Site Development Rules
+
+## Core Principles
+
+1. **STRICT ADHERENCE TO USER INSTRUCTIONS**
+   - Only perform actions explicitly requested by the user
+   - Do not make assumptions about scope beyond what is clearly stated
+   - If user provides a specific list of files to delete, ONLY delete those files
+   - Ask for clarification before proceeding with additional actions
+
+2. **FILE DELETION SAFETY**
+   - Before deleting any file, verify it's in the user's explicit deletion list
+   - If user asks for analysis of unnecessary files, provide recommendations but don't delete without explicit approval
+   - Always explain reasoning before taking destructive actions
+   - Create backups or confirm user has backups before major deletions
+
+3. **Jekyll Site Best Practices**
+   - Understand the difference between template files and user content
+   - Template files may be useful for future reference even if not currently used
+   - Always verify file dependencies before deletion
+   - Check if files are referenced in _config.yml or other configuration files
+
+4. **Communication Standards**
+   - Clearly separate "analysis" from "action"
+   - Present findings as recommendations first
+   - Get explicit confirmation before proceeding with deletions
+   - Document reasoning for all decisions
+
+5. **Error Prevention**
+   - Double-check file paths before deletion
+   - Verify file existence before attempting to delete
+   - Test site functionality after major changes
+   - Maintain clear audit trail of all changes
+
+## Specific Guidelines for File Cleanup
+
+### Template Files
+- Template files (like al-folio examples) may be useful for reference
+- Ask user if they want to keep template files before deletion
+- Distinguish between "unused" and "potentially useful for future reference"
+
+### Media Files
+- Verify file usage before deletion
+- Check for references in markdown files
+- Consider if files might be needed for future projects
+
+### Configuration Files
+- Never delete core Jekyll configuration files
+- Verify dependencies before removing any configuration
+- Test site build after configuration changes
+
+## Response Format
+
+When analyzing files for potential deletion:
+1. **Present findings as recommendations**
+2. **Separate explicit requests from additional suggestions**
+3. **Get user approval before any deletions**
+4. **Document all changes made**
+
+## Reference Documentation
+See `cleanup-lessons.md` for detailed lessons learned from previous cleanup operations.
+
+## Key Lessons from Previous Mistakes
+
+### What NOT to Do:
+- Don't expand scope beyond user's explicit list
+- Don't assume template files are unnecessary
+- Don't proceed with deletions without explicit approval
+- Don't make assumptions about user intent
+
+### What TO Do:
+- Stick to the user's specific list
+- Ask before deleting template files
+- Present analysis as recommendations first
+- Get explicit confirmation before any destructive actions
+- Document all decisions and reasoning
+
+## File Categorization System
+
+- **Explicitly Requested:** Files user specifically wants deleted
+- **Recommended for Deletion:** Files identified as potentially unnecessary
+- **Template/Reference:** Files that serve as examples or structure
+- **Core System:** Files essential for site functionality
+
+## Approval Workflow
+
+1. User provides request
+2. Analyze and categorize files
+3. Present findings with clear categories
+4. User selects which categories to proceed with
+5. Get explicit confirmation for each category
+6. Proceed with approved deletions only
+description:
+globs:
+alwaysApply: false
+---

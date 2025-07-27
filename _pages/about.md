@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
@@ -20,4 +20,48 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a second-year M.S. Statistics student at Purdue University with a proven track record in statistical modeling, bayesian modeling, machine learning, and data visualization. From `3+` years of data science and analytics plus product development experience, my expertise lies in leveraging data-driven insights to drive business growth, optimize decision-making processes, and improve overall performance across functionally, especially in front office teams.
+<div class="hero-section">
+  <h1 class="hero-title">
+    Hi, <span class="hero-accent">Welcome</span>
+  </h1>
+  
+  <div class="hero-subtitle">
+    I'm Satoshi Ido,<br>
+    Marketing Data Scientist | Statistical Modeling Expert
+  </div>
+  
+  <div class="hero-description">
+    Transforming complex data into actionable business insights through advanced statistical modeling, machine learning, and strategic analytics.
+  </div>
+</div>
+
+## GitHub Activity
+
+<div class="github-stats">
+  <div class="stats-grid">
+    <div class="stat-card">
+      <img src="https://github-readme-stats.vercel.app/api?username=idsts2670&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=1d1e20&text_color=1d1e20&icon_color=667eea" alt="GitHub Stats" />
+    </div>
+    <div class="stat-card">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=idsts2670&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=1d1e20&text_color=1d1e20" alt="Top Languages" />
+    </div>
+  </div>
+</div>
+
+## Featured Projects
+
+<div class="project-intro">
+  <p>A showcase of my current GitHub pinned repositories, spanning quantitative finance, data science, and software development.</p>
+</div>
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% for repo in site.data.repositories.github_repos limit:6 %}
+    {% include repository/repo.html repository=repo %}
+  {% endfor %}
+</div>
+
+<div class="repo-actions">
+  <a href="{{ '/repositories/' | relative_url }}" class="btn-repo-more">
+    View All Projects →
+  </a>
+</div>

@@ -2,7 +2,7 @@
 layout: page
 title: Tableau Dashboard 2
 description: a project with a interactive dashboard to visualize global COVID-19 data
-img: assets/img/3.jpg
+img: assets/img/global_covid-19_data.jpg
 importance: 2
 category: Visualization
 related_publications:
@@ -17,7 +17,7 @@ I've come to realize that I am interested in medical and biotech filed. I have u
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/global_covid-19_data.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

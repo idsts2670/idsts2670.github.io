@@ -2,8 +2,9 @@ github_users:
   - idsts2670
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - mathjax/MathJax
+  - idsts2670/quant_algo_trading
+  - idsts2670/alpaca-mcp-server
+  - idsts2670/real-time-stock-market-data-streaming
+  - idsts2670/statistical-analysis
+  - idsts2670/ChieSafe
+  - idsts2670/climate-change-analysis
