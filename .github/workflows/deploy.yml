@@ -19,13 +19,19 @@ jobs:
           ruby-version: "3.3.5"
           bundler-cache: true
           
-      - name: Test Basic Jekyll
+      - name: Check Dependencies
         run: |
-          echo "Testing if Jekyll can start..."
+          echo "Checking if bundle install works..."
+          bundle install
+          echo "Bundle install completed!"
+          
+      - name: Test Jekyll Version
+        run: |
+          echo "Testing Jekyll version..."
           bundle exec jekyll --version
           echo "Jekyll version check passed!"
           
-      - name: Test Build
+      - name: Test Basic Build
         run: |
           echo "Testing basic Jekyll build..."
           bundle exec jekyll build --verbose
