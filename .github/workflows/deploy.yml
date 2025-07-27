@@ -26,6 +26,12 @@ jobs:
       with:
         ruby-version: '3.2.2'
         bundler-cache: true
+    - name: Debug Environment 🔍
+      run: |
+        echo "Current directory: $(pwd)"
+        echo "Repository: ${{ github.repository }}"
+        echo "Branch: ${{ github.ref }}"
+        ls -la
     - name: Update _config.yml ⚙️
       uses: fjogeleit/yaml-update-action@v0.13.1
       with:
@@ -35,14 +41,21 @@ jobs:
         value: ${{ github.repository }}
     - name: Install Dependencies 🔧
       run: |
+        echo "Installing Python dependencies..."
         pip3 install --upgrade jupyter
+        echo "Installing Node.js dependencies..."
         npm install -g mermaid.cli
-        # npm install -g purgecss  # Temporarily disabled
+        echo "Dependencies installed successfully"
     - name: Build Site 🔨
       run: |
+        echo "Setting environment variables..."
         export JEKYLL_ENV=production
-        bundle exec jekyll build --lsi
+        echo "Building Jekyll site..."
+        bundle exec jekyll build --lsi --verbose
+        echo "Build completed. Checking _site directory..."
         ls -la _site/
+        echo "Checking if index.html exists..."
+        ls -la _site/index.html
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
