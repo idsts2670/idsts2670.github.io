@@ -33,14 +33,24 @@ jobs:
         valueFile: '_config.yml'
         propertyPath: 'giscus.repo'
         value: ${{ github.repository }}
-    - name: Install and Build 🔧
+    - name: Install Dependencies 🔧
       run: |
         pip3 install --upgrade jupyter
         npm install -g mermaid.cli
         npm install -g purgecss
+    - name: Build Site 🔨
+      run: |
         export JEKYLL_ENV=production
         bundle exec jekyll build --lsi
-        purgecss -c purgecss.config.js
+        ls -la _site/
+    - name: Run PurgeCSS 🧹
+      run: |
+        if [ -d "_site" ]; then
+          purgecss -c purgecss.config.js
+        else
+          echo "Error: _site directory not found"
+          exit 1
+        fi
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
