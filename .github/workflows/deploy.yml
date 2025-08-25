@@ -1,22 +1,19 @@
-name: deploy
+name: GitHub Pages
 
 on:
   push:
     branches:
       - master
       - main
-  pull_request:
-    branches:
-      - master
-      - main
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  deploy:
-    # available images: https://github.com/actions/runner-images#available-images
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 🛎️
@@ -41,9 +38,19 @@ jobs:
         export JEKYLL_ENV=production
         bundle exec jekyll build --lsi
         purgecss -c purgecss.config.js
-    - name: Deploy 🚀
-      if: github.event_name != 'pull_request'
-      uses: JamesIves/github-pages-deploy-action@v4
+    - name: Upload Pages artifact 📦
+      uses: actions/upload-pages-artifact@v3
       with:
-        folder: _site
+        path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+    - name: Deploy to GitHub Pages 🚀
+      id: deployment
+      uses: actions/deploy-pages@v4
 
