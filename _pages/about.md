@@ -12,7 +12,7 @@ profile:
   more_info: >
       <p>(765)-476-3830</p>
       <p>idsts2670@gmail.com</p>
-      <p>Located in Indiana, USA</p>
+      <p>Located in IL, USA</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -27,11 +27,11 @@ social: true  # includes social icons at the bottom of the page
   
   <div class="hero-subtitle">
     I'm Satoshi Ido,<br>
-    Marketing Data Scientist | Statistical Modeling Expert
+    Technical Marketing | Algorithmic Trading | Statistical Analysis
   </div>
   
   <div class="hero-description">
-    Transforming complex data into actionable business insights through advanced statistical modeling, machine learning, and strategic analytics.
+    Working at the intersection of algorithmic trading, data science, and technical storytelling.
   </div>
 </div>
 
