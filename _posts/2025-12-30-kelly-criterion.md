@@ -10,7 +10,6 @@ related_posts: true
 thumbnail: assets/img/Kelly-criterion-hero-image.png
 ---
 
-![Kelly Criterion Simulation Results](/assets/img/kelly-criterion-hero-image.png)
 
 ## Why Do Even Excellent Traders Go Broke?
 
