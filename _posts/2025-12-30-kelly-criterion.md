@@ -105,7 +105,7 @@ $$
 g(f) = p \log(1 + bf) + (1-p) \log(1 - f)
 $$
 
-The \(f\) that maximizes this function is the Kelly fraction \(f^*\).
+The $f$ that maximizes this function is the Kelly fraction $f^*$.
 
 ### What this simulation is really saying
 
@@ -114,7 +114,7 @@ The \(f\) that maximizes this function is the Kelly fraction \(f^*\).
 
 Three takeaways:
 
-- **Kelly is the sweet spot**: here it lands around \(f \approx 0.10\).
+- **Kelly is the sweet spot**: here it lands around $f \approx 0.10$.
 - **Going bigger hurts fast**: push past that and growth drops; at double Kelly it can go negative.
 - **Big bets get ugly**: drawdowns get more likely and the outcomes spread out a lot.
 
@@ -136,7 +136,7 @@ $$
 L^* = \frac{\mu}{\sigma^2}
 $$
 
-Here, \(\mu\) is the expected excess return and \(\sigma\) is volatility, both annualized.
+Here, $\mu$ is the expected excess return and $\sigma$ is volatility, both annualized.
 
 Recall the Sharpe ratio ([ref](https://community.morningstar.com/s/article/What-Is-the-Sharpe-Ratio)):
 
@@ -144,7 +144,7 @@ $$
 \text{Sharpe} = \frac{\mu}{\sigma}
 $$
 
-If you lever an asset by \(L^*\), the resulting portfolio volatility is roughly:
+If you lever an asset by $L^*$, the resulting portfolio volatility is roughly:
 
 $$
 \sigma_{\text{portfolio}} \approx L^* \cdot \sigma = \frac{\mu}{\sigma}
@@ -154,7 +154,7 @@ That equals the Sharpe ratio.
 
 **So what does this look like in code?**
 
-The example below pulls daily prices for AAPL and NVDA, estimates returns and volatility, computes \(L^*\), and turns that into weights with a couple simple constraints.
+The example below pulls daily prices for AAPL and NVDA, estimates returns and volatility, computes $L^*$, and turns that into weights with a couple simple constraints.
 >Note: I used the 3-month Treasury bill (DTB3) as a rough risk-free rate. You can also just fix it or ignore it.
 
 ```python
@@ -187,7 +187,7 @@ You understand the theory of the Kelly Criterion by now. However, to apply it to
 
 ### Practical caveats
 
-- **You don't know the inputs**: \(\mu\) and \(\sigma\) (or \(p\) and \(b\)) are guesses. If your edge estimate is too rosy, full Kelly will have you taking way too much risk.
+- **You don't know the inputs**: $\mu$ and $\sigma$ (or $p$ and $b$) are guesses. If your edge estimate is too rosy, full Kelly will have you taking way too much risk.
   - What people do: **fractional Kelly** (half/quarter) and some hard caps (leverage, drawdown).
 - **Portfolios aren't one bet**: correlations matter, and “add up the single-asset Kelly sizes” can blow past 100% fast.
   - What people do: put it in an optimizer with a risk budget and exposure limits.
