@@ -34,7 +34,6 @@ In a nutshell, Kelly Criterion tells us **Given a small edge in win probability 
 
 - [View source on GitHub](https://github.com/idsts2670/quant_algo_trading/blob/main/kelly_criterion/kelly_criterion_simulation.ipynb)
 - [Run in Google Colab](https://colab.research.google.com/github/idsts2670/quant_algo_trading/blob/main/kelly_criterion/kelly_criterion_simulation.ipynb)
-- [Download notebook](https://raw.githubusercontent.com/idsts2670/quant_algo_trading/main/kelly_criterion/kelly_criterion_simulation.ipynb)
 
 ---
 
