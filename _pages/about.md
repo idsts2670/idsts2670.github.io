@@ -40,10 +40,10 @@ social: true  # includes social icons at the bottom of the page
 <div class="github-stats">
   <div class="stats-grid">
     <div class="stat-card">
-      <img src="https://github-readme-stats.vercel.app/api?username=idsts2670&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=1d1e20&text_color=1d1e20&icon_color=667eea" alt="GitHub Stats" />
+      <img src="https://github-readme-stats-idsts2670.vercel.app/api?username=idsts2670&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&title_color=1d1e20&text_color=1d1e20&icon_color=667eea" alt="GitHub Stats" />
     </div>
     <div class="stat-card">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=idsts2670&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=1d1e20&text_color=1d1e20" alt="Top Languages" />
+      <img src="https://github-readme-stats-idsts2670.vercel.app/api/top-langs/?username=idsts2670&layout=compact&theme=default&hide_border=true&bg_color=ffffff&title_color=1d1e20&text_color=1d1e20" alt="Top Languages" />
     </div>
   </div>
 </div>
